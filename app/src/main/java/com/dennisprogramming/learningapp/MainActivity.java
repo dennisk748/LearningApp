@@ -68,6 +68,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             startActivity(new Intent(MainActivity.this , UpperPrimary.class));
         }else if (id == R.id.nav_highSchool){
             startActivity(new Intent(MainActivity.this , HighSchool.class));
+        }else if (id == R.id.nav_send){
+
+        }else if (id == R.id.nav_share){
+            Intent intent = new Intent();
+            intent.setAction(intent.ACTION_SEND);
+           //intent.putExtra(Intent.EXTRA_TEXT,"https://play.google.com");
+            intent.setType("text/plain");
+            startActivity(Intent.createChooser(intent,"Share Via"));
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

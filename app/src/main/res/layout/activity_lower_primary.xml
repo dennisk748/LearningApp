@@ -8,31 +8,33 @@
     tools:context=".LowerPrimary">
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
+            android:fontFamily="sans-serif"
             android:text="@string/lower_primary"
             android:textColor="@color/white"
             android:textSize="40sp"
-            android:textStyle="bold|italic"
-            android:fontFamily="sans-serif"/>
+            android:textStyle="bold|italic" />
 
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:rowCount="2"
-            android:columnCount="2"
+            android:layout_gravity="center_horizontal"
             android:layout_margin="7dp"
             android:alignmentMode="alignMargins"
-            android:layout_gravity="center_horizontal"
-            android:columnOrderPreserved="false">
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="2">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/firstgrade_card"
+                android:id="@+id/firstGrade"
                 android:layout_width="180dp"
                 android:layout_height="200dp"
                 android:layout_margin="10dp"
@@ -71,7 +73,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/secondgrade_card"
+                android:id="@+id/secondGrade"
                 android:layout_width="180dp"
                 android:layout_height="200dp"
                 android:layout_margin="10dp"
@@ -110,7 +112,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/thirdgrade_card"
+                android:id="@+id/thirdGrade"
                 android:layout_width="180dp"
                 android:layout_height="200dp"
                 android:layout_margin="10dp"
@@ -149,7 +151,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/fourthgrade_card"
+                android:id="@+id/fourthGrade"
                 android:layout_width="180dp"
                 android:layout_height="200dp"
                 android:layout_margin="10dp"
@@ -190,5 +192,6 @@
         </GridLayout>
 
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

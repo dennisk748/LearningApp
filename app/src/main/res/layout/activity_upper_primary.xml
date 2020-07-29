@@ -32,7 +32,7 @@
             android:columnOrderPreserved="false">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/firstgrade_card"
+                android:id="@+id/fifthGrade"
                 android:layout_width="180dp"
                 android:layout_height="200dp"
                 android:layout_margin="10dp"
@@ -71,7 +71,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/secondgrade_card"
+                android:id="@+id/sixthGrade"
                 android:layout_width="180dp"
                 android:layout_height="200dp"
                 android:layout_margin="10dp"
@@ -110,7 +110,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/thirdgrade_card"
+                android:id="@+id/seventhGrade"
                 android:layout_width="180dp"
                 android:layout_height="200dp"
                 android:layout_margin="10dp"
@@ -149,7 +149,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/fourthgrade_card"
+                android:id="@+id/eighthGrade"
                 android:layout_width="180dp"
                 android:layout_height="200dp"
                 android:layout_margin="10dp"
